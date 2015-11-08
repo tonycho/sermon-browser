@@ -1,0 +1,21 @@
+<div class="sermon-browser">
+	[filters_form]
+	<table class="sermons">
+		<tr>
+			<th style="width:10%">Date</th>
+			<th style="width:30%">Service</th>
+			<th style="width:30%">Preacher</th>
+			<th style="width:30%">Title</th>
+		</tr>
+	[sermons_loop]
+	<tr>
+        <td style="white-space:nowrap;">[date]</td>
+	<td>[service_link]</td>
+	<td>[preacher_link]</td>
+        <td>[sermon_title] </td>
+        </tr>
+   	[/sermons_loop]
+	</table>
+   	<div class="floatright">[next_page]</div>
+   	<div class="floatleft">[previous_page]</div>
+</div>
